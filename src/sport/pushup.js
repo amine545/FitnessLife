@@ -3,10 +3,10 @@ import '../sport/sport.css'
 function pushup() {
     return (
         <div>
-            <img  src="../res/pushup.png"/>
+            <img  src="../res/pushup.png" alt=""/>
             <br/>
             <br/>
-            <iframe class="vi" width="560" height="315" src="https://www.youtube.com/embed/IODxDxX7oi4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe className="vi" width="560" height="315" src="https://www.youtube.com/embed/IODxDxX7oi4"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="e" allowFullscreen></iframe>
             <br/>
             <br/>
             <ol type="1" className='ppp'>
@@ -22,10 +22,10 @@ function pushup() {
 </ol>
 <br/>
             <br/>
-<img className="img77" src="https://media1.giphy.com/media/WWKqdtbNRHlYc/giphy.gif"/>
+<img className="img77" src="https://media1.giphy.com/media/WWKqdtbNRHlYc/giphy.gif" alt=""/>
 <br/>
             <br/>
-<img className="img77" src="https://media3.giphy.com/media/3ohze1qkqPZHMrEuwo/source.gif"/>
+<img className="img77" src="https://media3.giphy.com/media/3ohze1qkqPZHMrEuwo/source.gif" alt=""/>
 <br/>
             <br/>
         </div>

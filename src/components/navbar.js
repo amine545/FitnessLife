@@ -1,23 +1,23 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 import '../css/navbar.css'
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
     return (
         <div>
-<section class="navigation">
-  <div class="nav-container">
-    <div class="brand">
+<section className="navigation">
+  <div className="nav-container">
+    <div className="brand">
       <p className='p'>FitnessHub</p>
     </div>
     <nav>
-      <div class="nav-mobile"><a id="nav-toggle" href="#"><span></span></a></div>
-      <ul class="nav-list">
-      <li><Link to = '/' class="active">Home</Link></li>
-    <li><Link to= '/sign' >Sign In / UP</Link></li>
-    <li><Link to= '/train' >Start Your Taining</Link></li>
-    <li><form class="navbar-form navbar-left" action="/action_page.php">
+      <div className="nav-mobile"><a id="nav-toggle" href="#"><span></span></a></div>
+      <ul className="nav-list">
+        <li><NavLink to = '/' className="active">Home</NavLink></li>
+        <li><NavLink to= '/sign' >Sign In / UP</NavLink></li>
+        <li><NavLink to= '/train' >Start Your Taining</NavLink></li>
+        <li><form className="navbar-form navbar-left" action="/action_page.php">
     
       </form>
       </li>

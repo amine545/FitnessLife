@@ -3,10 +3,10 @@ import '../sport/sport.css'
 function squat() {
     return (
         <div>
-        <img  src="../res/squats.png"/>
+        <img  src="../res/squats.png" alt=""/>
         <br/>
         <br/>
-          <iframe class="vi" width="560" height="315" src="https://www.youtube.com/embed/YaXPRqUwItQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe className="vi" width="560" height="315" src="https://www.youtube.com/embed/YaXPRqUwItQ" title="b" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
           <br/>
             <br/>
         <ol type="1" className='ppp' ><li> Find a foot stance that feels best for you. Pointing your toes slightly outwards helps some, but keeping them parallel is fine, too. If you’re not sure what’s best, start by putting your feet shoulder-width apart and
@@ -24,7 +24,7 @@ function squat() {
 </ol>
 <br/>
             <br/>
-<img className="img77" src="https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/bodyweight-squat.gif?resize=480:*"/>
+<img className="img77" src="https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/bodyweight-squat.gif?resize=480:*" alt=""/>
 <br/>
             <br/>
     </div>

@@ -3,10 +3,10 @@ import '../sport/sport.css'
 function situp() {
     return (
         <div>
-            <img src="../res/sit-up.png"/>
+            <img src="../res/sit-up.png" alt=""/>
             <br/>
             <br/>
-            <iframe class="vi" width="560" height="315" src="https://www.youtube.com/embed/jDwoBqPH0jk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe className="vi" width="560" height="315" title="d" src="https://www.youtube.com/embed/jDwoBqPH0jk"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
             <br/>
             <br/>
             <ol type="1" className='ppp'>
@@ -24,7 +24,7 @@ function situp() {
  </ol>
  <br/>
             <br/>
- <img className="img77" src="https://i.pinimg.com/originals/0f/52/d6/0f52d6c8f62e75bace5f4fe3f9480fb0.gif"/>
+ <img className="img77" src="https://i.pinimg.com/originals/0f/52/d6/0f52d6c8f62e75bace5f4fe3f9480fb0.gif" alt=""/>
  <br/>
             <br/>
         </div>

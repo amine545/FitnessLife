@@ -3,10 +3,10 @@ import '../sport/sport.css'
 function plank() {
     return (
         <div>
-            <img  src="../res/planks.png"/>
+            <img  src="../res/planks.png" alt=""/>
             <br/>
             <br/>
-            <iframe class="vi"width="560" height="315" src="https://www.youtube.com/embed/F-nQ_KJgfCY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe className="vi"width="560" height="315" src="https://www.youtube.com/embed/F-nQ_KJgfCY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="f" allowfullscreen></iframe>
             <br/>
             <br/>
             <ol type="1"  className='ppp'><li> Plant hands directly under shoulders  like you’re about to do a push-up.
@@ -23,7 +23,7 @@ function plank() {
 </ol>
 <br/>
             <br/>
-<img className="img77"src="https://thumbs.gfycat.com/OpulentZanyBumblebee-size_restricted.gif"/>
+<img className="img77"src="https://i.pinimg.com/originals/cf/b5/67/cfb5677a755fe7288b608a4fec6f09a0.gif" alt=""/>
 <br/>
             <br/>
         </div>

@@ -3,10 +3,10 @@ import '../sport/sport.css'
 function lunges() {
     return (
         <div>
-            <img  src="../res/lunges.png"/>
+            <img  src="../res/lunges.png" alt=""/>
             <br/>
             <br/>
-            <iframe class="vi" width="560" height="315" src="https://www.youtube.com/embed/QOVaHwm-Q6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe className="vi" width="560" height="315" src="https://www.youtube.com/embed/QOVaHwm-Q6U"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="c" allowFullscreen></iframe>
             <br/>
             <br/>
             <ol type ="1" className='ppp'>
@@ -23,7 +23,7 @@ function lunges() {
  </ol>
  <br/>
             <br/>
- <img className="img77" src="https://thumbs.gfycat.com/InferiorFalseGalago-small.gif"/> 
+ <img className="img77" src="https://cdn.jefit.com/assets/img/exercises/gifs/1222.gif"  alt=""/> 
  <br/>
             <br/>
         </div>

@@ -18,8 +18,8 @@ function train() {
         <br/>
         <br/>
         <AddTodo/>
-    <VisibleTodoList />
-    <Footer />
+        <VisibleTodoList />
+        <Footer />
         </div>
     )
 }

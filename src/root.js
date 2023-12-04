@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import {BrowserRouter as Router, Route,Routes } from 'react-router-dom'
 import Home from './home';
 import Navbar from './components/navbar';
 import Sign from './sign';
@@ -13,30 +13,32 @@ import Situp from './sport/situp'
 import Squat from './sport/squat'
 function root() {
     return (
-        <div>
+     
+
+
+        
         <Router>
-        <div>
-<Navbar/>
-
-        <Switch>
-          <div >
-                            <Route path="/" exact component={Home}/>
-                            <Route path="/sign" component={Sign}/>
-                            <Route path="/train" component={Train}/>
-    <Route path="/kpu" component={Kpu}/> 
-    <Route path="/lunges" component={Lunges}/> 
-    <Route path="/plank" component={Plank}/> 
-    <Route path="/pushup" component={Pushup}/> 
-    <Route path="/situp" component={Situp}/> 
-    <Route path="/squat" component={Squat}/>
-    </div>
-        </Switch>
-        <Footer/>
-        </div>
-
+            <Navbar/>
+            <Routes>
+                <Route >
+                <Route path="/" element={<Home />} />
+                <Route path="/sign" element={<Sign />} />
+                <Route path="/train" element={<Train />} />
+                <Route path="/kpu" element={<Kpu />} />
+                <Route path="/lunges" element={<Lunges />} />
+                <Route path="/plank" element={<Plank />} />
+                <Route path="/plank" element={<Plank />} />
+                <Route path="/pushup" element={<Pushup />} />
+                <Route path="/situp" element={<Situp />} />
+                <Route path="/squat" element={<Squat />} />
+                </Route>
+            </Routes>
+            <Footer/>
         </Router>
 
-        </div>
+       
+
+
     )
 }
 export default root;

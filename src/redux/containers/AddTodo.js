@@ -22,7 +22,7 @@ const AddTodo = ({ dispatch }) => {
         }
       >
         <input type="text"  placeholder='organize your workout routine' style={{width:'500px' , height:'30px'}} ref={el => (input = el)} />
-        <button type='submit'style={{width:'100px' , height:'40px'}}>Add exercice</button>
+        <button type='submit'style={{width:'100px' , margin: '0 auto', height:'60px'}}>Add exercice</button>
       </form>
     </div>
   );

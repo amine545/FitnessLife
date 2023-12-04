@@ -7,7 +7,7 @@ function Modal(props) {
 <div>
                 <div className="grid-item">
       
-      <img className='images' src={props.image}/>
+      <img className='images' src={props.image} alt=""/>
 <Link to= {props.path} ><p className='ss'>{props.name}</p></Link>
 
                     </div>

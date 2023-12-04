@@ -14,16 +14,21 @@
       padding: 10px;
     }
     .grid-item {
+      text-decoration: none;
       background-color: transparent;  
       padding: 50px;
       font-size: 30px;
       text-align: center;
+      font-family: 'Segoe UI';
+      text-decoration-color: aqua;
     }
     .ss{
       text-decoration: none;
-      color:white ;
+      color:orangered ;
+
     }
     .inp{
       width: 500px;
       height: 40px;
+
     }
