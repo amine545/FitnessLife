@@ -33,6 +33,11 @@ function root() {
                 <Route path="/squat" element={<Squat />} />
                 </Route>
             </Routes>
+            <Routes>
+                <Route path="/" element={<Welcome />} />
+                <Route path="/" element={<Slides />} />
+                <Route path="/" element={<Vids />} />
+            </Routes>
             <Footer/>
         </Router>
 
