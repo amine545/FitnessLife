@@ -21,7 +21,7 @@ function root() {
             <Navbar/>
             <Routes>
                 <Route >
-                <Route path="/" element={<Home />} />
+                <Route path="/home" element={<Home />} />
                 <Route path="/sign" element={<Sign />} />
                 <Route path="/train" element={<Train />} />
                 <Route path="/kpu" element={<Kpu />} />
@@ -33,7 +33,9 @@ function root() {
                 <Route path="/squat" element={<Squat />} />
                 </Route>
             </Routes>
+     
             <Footer/>
+        
         </Router>
 
        
