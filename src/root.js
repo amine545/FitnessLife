@@ -2,6 +2,7 @@ import React from 'react'
 import {BrowserRouter as Router, Route,Routes } from 'react-router-dom'
 import Home from './home';
 import Navbar from './components/navbar';
+import Welcome from './components/welcome'
 import Sign from './sign';
 import Train from './train';
 import Footer from './components/footer'
@@ -33,7 +34,7 @@ function root() {
                 <Route path="/squat" element={<Squat />} />
                 </Route>
             </Routes>
-     
+            <Welcome/>
             <Footer/>
         
         </Router>
