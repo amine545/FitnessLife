@@ -5,6 +5,7 @@ import Navbar from './components/navbar';
 import Sign from './sign';
 import Train from './train';
 import Footer from './components/footer'
+import Welcome from './components/welcome'
 import Kpu from './sport/kpu'
 import Lunges from './sport/lunges'
 import Plank from './sport/plank'
@@ -33,6 +34,7 @@ function root() {
                 <Route path="/squat" element={<Squat />} />
                 </Route>
             </Routes>
+            <Welcome/>
             <Footer/>
         </Router>
 
