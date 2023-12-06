@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/FitnessLife/static/css/main.a7358b31.css",
+    "main.js": "/FitnessLife/static/js/main.8e66eee8.js",
+    "index.html": "/FitnessLife/index.html",
+    "main.a7358b31.css.map": "/FitnessLife/static/css/main.a7358b31.css.map",
+    "main.8e66eee8.js.map": "/FitnessLife/static/js/main.8e66eee8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7358b31.css",
+    "static/js/main.8e66eee8.js"
+  ]
+}
