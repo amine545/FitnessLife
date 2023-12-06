@@ -19,7 +19,7 @@ function root() {
 
         
         <Router>
-            <Navbar/>
+           
             <Routes>
                 <Route >
                 <Route path="/" element={<Home />} />
